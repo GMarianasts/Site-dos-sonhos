@@ -1,0 +1,124 @@
+/*
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #008cba;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .container nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('https://source.unsplash.com/1600x600/?travel,world') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .carrossel {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .carrossel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carrossel-inner img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  #prev {
+    left: 0;
+  }
+  
+  #next {
+    right: 0;
+  }
+  
+  .galeria-preview {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .galeria-grid img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-galeria {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #008cba;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeria de Viagens</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+        background: url('https://images.rove.me/w_1920,q_85/lazbgh6eclmewrps0fal/iceland-the-northern-lights.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #008cba;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Galeria de Viagens</h1>
+    <p>algumas imagens inspiradoras dos lugares que quero conhecer.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <section class="gallery">
+    <img src="imagens/maldivas.jpg" alt="Maldivas">
+    <img src="imagens/novaYork.jpg" alt="Nova York">
+    <img src="imagens/santorini.jpg" alt="Santorini">
+    <img src="imagens/puket.jpg" alt="Puket">
+    <img src="imagens/sicilia.jpg" alt="Sicilia">
+    <img src="imagens/Taj Mahal.jpg" alt="Taj Mahal">
+    <img src="imagens/mexico.webp" alt="Mexico">
+    <img src="imagens/barcelona.jpg" alt="Barcelona">
+  </section>
+
+  <footer>
+    <p> &copy; 2025 - Meu Sonho é Viajar o Mundo</p>
+  </footer>
+
+</body>
+</html>
